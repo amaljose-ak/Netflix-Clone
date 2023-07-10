@@ -14,11 +14,19 @@
     display: none;
 }
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
   
 }
+.poster:hover{
+    transform: scale(1.1);
+}
 .smallPoster{
+    cursor: pointer;
     max-width: 170px;
     margin-right: 10px;
+}
+.smallPoster:hover{
+    transform: scale(1.1);
 }
